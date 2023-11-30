@@ -1,130 +1,101 @@
 // TODO: Include packages needed for this application
-const inquirer = require('inquirer');
+const inquirer = require("inquirer");
 const fs = require("fs");
 // Importing the generateMarkdown.js file
-// const generateMarkdown = require('./generateMarkdown'); 
+const generateMarkdown = require("./utils/generateMarkdown");
 
-// // Data to pass to generateMarkdown
-// const userData = {
-    
-//   };
-  
-// const markdownContent = generateMarkdown(userData);
+// Data to pass to generateMarkdown
+const userData = {};
+
+const markdownContent = generateMarkdown(userData);
 
 // TODO: Create an array of questions for user input
 const questions = [
-    {
-      type: 'input',
-      message: 'Project Title',
-      name: 'title',
-    },
-    {
-      type: 'input',
-      message: 'Description',
-      name: 'description',
-    },
-    {
-      type: 'input',
-      message: 'Installation Instructions',
-      name: 'installation',
-    },
-    {
-      type: 'input',
-      message: 'Usage Information',
-      name: 'usage',
-    },
-    {
-      type: 'input',
-      message: 'Contribution Guidelines',
-      name: 'contribution',
-    },
-    {
-      type: 'input',
-      message: 'Test Instructions',
-      name: 'test',
-    },
-    {
-      type: 'input',
-      message: 'GitHub username',
-      name: 'github',
-    },
-    {
-      type: 'input',
-      message: 'Email',
-      name: 'email',
-    },
-    {
-      type: 'list',
-      message: 'Chose a license for your application',
-      name: 'license',
-      choices: [
-        "MIT License", "GNU GPLv3"
-      ]
-    },
-  ]
-
+  {
+    type: "input",
+    message: "Project Title",
+    name: "title",
+  },
+  {
+    type: "input",
+    message: "Description",
+    name: "description",
+  },
+  {
+    type: "input",
+    message: "Installation Instructions",
+    name: "installation",
+  },
+  {
+    type: "input",
+    message: "Usage Information",
+    name: "usage",
+  },
+  {
+    type: "input",
+    message: "Contribution Guidelines",
+    name: "contribution",
+  },
+  {
+    type: "input",
+    message: "Test Instructions",
+    name: "test",
+  },
+  {
+    type: "input",
+    message: "GitHub username",
+    name: "github",
+  },
+  {
+    type: "input",
+    message: "Email",
+    name: "email",
+  },
+  {
+    type: "list",
+    message: "Chose a license for your application",
+    name: "license",
+    choices: ["MIT License", "GNU GPLv3"],
+  },
+];
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-       fs.writeFile(fileName, data, err => {
-        if (err){
-            console.error(err);
-            return;
-        } 
-        console.log("README file created successfully!");
-    })
+  fs.writeFile(fileName, data, (err) => {
+    if (err) {
+      console.error(err);
+      return;
+    }
+    console.log("README file created successfully!");
+  });
 }
 
 // TODO: Create a function to initialize app
 function init() {
-    inquirer
-    .prompt(questions)
-    .then((response) => {
-        console.log(response);
-        const {title, description, installation, usage, contribution, test, github, email } = response;
+  inquirer.prompt(questions).then((response) => {
+    console.log(response);
+    // Assign the collected data to userData object
+    userData.title = response.title;
+    userData.description = response.description;
+    userData.installation = response.installation;
+    userData.usage = response.usage;
+    userData.contribution = response.contribution;
+    userData.test = response.test;
+    userData.github = response.github;
+    userData.email = response.email;
+    // Assign the selected license to userData
+    userData.license = response.license;
 
-        let readmeContent = `
-# ${response.title}
-        
-## Description
-${response.description}
-        
-## Table of Contents
-- [Installation](#installation)
-- [Usage](#usage)
-- [License](#license)
-- [Contributing](#contributing)
-- [Tests](#tests)
-- [Questions](#questions)
+    const markdownContent = generateMarkdown(userData);
 
-## Installation
-    ${response.installation}
-
-## Usage
-    ${response.usage}
-
-## License
-
-    This application is covered under the ${response.license}.
-        
-## Contributing
-    ${response.contribution}
-        
-## Tests
-    ${response.test}
-        
-## Questions
-* [GitHub Profile](https://github.com/${response.github})
-* Please email me at ${response.email} with additional questions. `;
-
-        writeToFile("README2.md", readmeContent, err => {
-            if (err){
-                console.error(err);
-                return;
-            } 
-            console.log("Success!");
-        })
-})
+    writeToFile("generatedREADME.md", markdownContent, (err) => {
+      if (err) {
+        console.error(err);
+        return;
+      }
+      console.log("Success!");
+    });
+  });
 }
 
 // Function call to initialize app
