@@ -207,7 +207,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Gavin Meyer - gpmeyer24@gmail.com - GitHub: gmeyer24
+Gavin Meyer - Email: gpmeyer24@gmail.com - GitHub: gmeyer24
 
 Project Link: [HW09-Node.js-Professional README Generator GitHub Pages](https://github.com/gmeyer24/HW09-Node.js--Professional-README-Generator)
 
