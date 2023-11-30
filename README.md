@@ -149,7 +149,7 @@ This is an example of how to list things you need to use the software and how to
 <!-- USAGE EXAMPLES -->
 ## Usage
 
--Please use this command-line application to quickly generate a profressional README for a new project.
+* Please use this command-line application to quickly generate a profressional README for a new project.
 
 ### Command-line Steps
 1. Run 'npm init -y' in the command-line
@@ -227,6 +227,8 @@ Walkthrough Video Link:
 * [Make a README](https://www.makeareadme.com/)
 * [W3Schools](https://www.w3schools.com/)
 * ChatGPT
+* [Professional README Guide](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
+* [Video Submission Guide](https://coding-boot-camp.github.io/full-stack/computer-literacy/video-submission-guide)
 
 <p align="right">(<a href="#readme-top">Back To Top</a>)</p>
 
