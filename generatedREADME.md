@@ -4,7 +4,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
      
 ## Description
-Our application explains the fundamental rules of baseball.
+Our application teaches you the fundamental rules of baseball.
         
 ## Table of Contents
 - [Installation](#installation)
@@ -15,17 +15,17 @@ Our application explains the fundamental rules of baseball.
 - [Questions](#questions)
 
 ## Installation
-    Please go to our website and download our app to get started!
+    Please visit our website and download the app to begin.
 
 ## Usage
-    Use this app to look up and teach the rules of baseball.
+    Follow the below step by step instructions on how to use the app. Our website includes more detail as well if needed. 
 
 ## License
 
     This application is covered under the MIT License.
         
 ## Contributing
-    If you would like to make a contribution, please submit a GitHub issue.
+    If you would like to make any contributions, please submit a GitHub issue.
         
 ## Tests
     None

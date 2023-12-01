@@ -89,6 +89,8 @@ The goal of this project was to create a README generator using the command-line
 
 ### Walkthrough Video
 
+* [Walkthrough Video Link](https://watch.screencastify.com/v/9CbFfqQw8is6XueiaZi7)
+
 <!-- Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `gmeyer24`, `HW09-Node.js--Professional-README-Generator`, `gavinpmeyer`, `gmail`, `gpmeyer24`, `Professional README Generator`, `project_description` -->
 
 <p align="right">(<a href="#readme-top">Back To Top</a>)</p>
@@ -191,7 +193,7 @@ Gavin Meyer | Email: gpmeyer24@gmail.com | GitHub: gmeyer24
 
 Project Link: [HW09-Node.js-Professional README Generator GitHub Pages](https://github.com/gmeyer24/HW09-Node.js--Professional-README-Generator)
 
-Walkthrough Video Link: 
+Walkthrough Video Link: [Walkthrough Video Link](https://watch.screencastify.com/v/9CbFfqQw8is6XueiaZi7)
 
 <!-- Deployed Link: [https://gmeyer24.github.io/HW09-Node.js--Professional-README-Generator](https://gmeyer24.github.io/HW09-Node.js--Professional-README-Generator) -->
 
