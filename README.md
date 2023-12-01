@@ -112,37 +112,13 @@ The goal of this project was to create a README generator using the command-line
 
 
 
-<!-- GETTING STARTED -->
-<!-- ## Getting Started
-
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/gmeyer24/HW09-Node.js--Professional-README-Generator.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+1. Run 'npm init' in the command-line
+2. Run 'npm install inquirer@8.2.4' in the command line
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
@@ -151,11 +127,15 @@ This is an example of how to list things you need to use the software and how to
 
 * Please use this command-line application to quickly generate a profressional README for a new project.
 
-### Command-line Steps
-1. Run 'npm init -y' in the command-line
-2. Run 'npm install inquirer@8.2.4' in the command line
-3. Enter responses to all of the prompts
+### Command-line Steps after Installation
+1. Open the terminal
+2. In the command-line enter 'npm index.js'
+3. In the command-line enter responses to all of the prompts
 4. README is generated
+
+* Image of prompts and responses below:
+
+![Alt text](assets/images/image1.png)
 
 _For more information on READMEs, please refer to the [Profressional README Guide](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)_
 
@@ -207,7 +187,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Gavin Meyer - Email: gpmeyer24@gmail.com - GitHub: gmeyer24
+Gavin Meyer | Email: gpmeyer24@gmail.com | GitHub: gmeyer24
 
 Project Link: [HW09-Node.js-Professional README Generator GitHub Pages](https://github.com/gmeyer24/HW09-Node.js--Professional-README-Generator)
 

@@ -1,10 +1,10 @@
 
-# How to Play Baseball
+# The rules of Baseball
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
      
 ## Description
-This app teaches you how to play the game of baseball
+Our application explains the fundamental rules of baseball.
         
 ## Table of Contents
 - [Installation](#installation)
@@ -15,20 +15,20 @@ This app teaches you how to play the game of baseball
 - [Questions](#questions)
 
 ## Installation
-    Please go to our website and download the app.
+    Please go to our website and download our app to get started!
 
 ## Usage
-    Please see the steps below on how to navigate through the app
+    Use this app to look up and teach the rules of baseball.
 
 ## License
 
     This application is covered under the MIT License.
         
 ## Contributing
-    If you want to contirbute, please open a GitHub Issue
+    If you would like to make a contribution, please submit a GitHub issue.
         
 ## Tests
-    Have fun!
+    None
         
 ## Questions
 * [GitHub Profile](https://github.com/gmeyer24)
