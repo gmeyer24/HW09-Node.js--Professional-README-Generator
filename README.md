@@ -129,7 +129,7 @@ The goal of this project was to create a README generator using the command-line
 
 ### Command-line Steps after Installation
 1. Open the terminal
-2. In the command-line enter 'npm index.js'
+2. In the command-line enter 'node index.js'
 3. In the command-line enter responses to all of the prompts
 4. README is generated
 
